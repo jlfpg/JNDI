@@ -141,10 +141,7 @@ public class view extends JFrame {
 				}
 				
 			}
-		});
-		
-		
-		
+		});	
 	}
 
 	public String getTxtfRuta1() {
@@ -184,7 +181,6 @@ public class view extends JFrame {
 			System.out.println("Indique <directorio> <ficheros...> a buscar");
 			return;
 		}
-		//System.out.println("HEPASAADA");
 		// creamos el initial context
 
 		Properties p = new Properties();
@@ -210,7 +206,7 @@ public class view extends JFrame {
 				System.out.println(args[i] + "  NO EXISTE");
 			}
 		}
-		}
+	}
 
 	}
 }
